@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه‌های برنامه‌نویسی Saycoder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            padding: 20px;
+        }
+        .json-output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>پروژه‌های برنامه‌نویسی Saycoder</h1>
+    <div id="output" class="json-output">در حال بارگذاری اطلاعات...</div>
+
+    <script>
+        // آدرس JSON که می‌خواهید بارگذاری کنید
+        const jsonUrl = "https://saycoder.ir/posts/1"; // جایگزین کنید با آدرس JSON خود
+
+        // لود کردن JSON با fetch API
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => {
+                // نمایش اطلاعات JSON در صفحه
+                const outputDiv = document.getElementById("output");
+                outputDiv.textContent = JSON.stringify(data, null, 4);
+            })
+            .catch(error => {
+                const outputDiv = document.getElementById("output");
+                outputDiv.textContent = `خطا در بارگذاری اطلاعات: ${error.message}`;
+            });
+    </script>
+</body>
+</html>
