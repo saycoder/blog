@@ -1,6 +1,8 @@
 {
     "version": 2,
     "description": "نسخه جدید افزونه در دسترس است لطفا بروز رسانی کنید.",
-    "link": "https://saycoder.ir"
+    "link": "https://saycoder.ir",
+     "redirect": false
+
 
 }
