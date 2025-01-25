@@ -1,1 +1,13 @@
+{
+  "addons": {
+    "school-assistant@saycoder.com": {
+      "updates": [
+        {
+          "version": "2.0",
+          "update_link": "https://saycoder.com/blog/plugin/school-assistant-2.0.xpi"
+        }
+      ]
+    }
+  }
+}
 
