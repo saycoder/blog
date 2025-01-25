@@ -3,16 +3,16 @@
     "school-assistant@saycoder.com": {
       "updates": [
         {
-          "version": "2.0",
-          "update_link": "https://saycoder.com/blog/plugin/school-assistant-2.0.xpi"
+          "version": "1.0",
+          "update_link": "https://saycoder.com/blog/plugin/school-assistant-1.0.xpi"
         }
       ]
     },
     "schoolyar@saycoder.com": {
       "updates": [
         {
-          "version": "2.0",
-          "update_link": "https://saycoder.com/blog/plugin/schoolyar-2.0.xpi"
+          "version": "1.0",
+          "update_link": "https://saycoder.com/blog/plugin/schoolyar-1.0.xpi"
         }
       ]
     }
